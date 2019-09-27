@@ -15,7 +15,7 @@ do
   echo $t
 done
 echo "\$* list"
-for t in $*
+for t in "$*"
 do
   echo $t
 done
